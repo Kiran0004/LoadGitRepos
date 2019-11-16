@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Git Repo Details</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>
