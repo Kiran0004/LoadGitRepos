@@ -16,6 +16,7 @@ adapter,ui - contains classes needed to display Activity.
 util - contains classes needed for activity redirection, ui/ux animations.
 
 App Specs
+
 Minimum SDK 15
 Java8 (in master branch) & Kotlin (in kotlin_support branch)
 Android Architecture Components 
