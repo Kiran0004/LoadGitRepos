@@ -11,8 +11,6 @@ import com.google.gson.annotations.SerializedName
  * Created by Kiran on 2019-11-16.
  */
 
-
-
 class RepositoryDetailModel(`in`: Parcel) : Parcelable {
 
     @SerializedName("owner")
@@ -30,6 +28,8 @@ class RepositoryDetailModel(`in`: Parcel) : Parcelable {
     @SerializedName("stargazers_count")
     @Expose
      var mStarsNumber: Float = 0.toFloat()
+
+    fun RepositoryDetailModel(){}
 
     init {
         mDescription = `in`.readString()

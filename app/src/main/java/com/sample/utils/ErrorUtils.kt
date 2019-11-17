@@ -18,7 +18,7 @@ object ErrorUtils {
         val error: APIError
 
         try {
-            error = converter.convert(response.errorBody())
+            error = converter.convert(response.errorBody())!!
         } catch (e: IOException) {
             return APIError()
         }
